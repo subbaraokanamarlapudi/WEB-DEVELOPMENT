@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <title>
+            NAME:
+            </title>
+            <head>
+                <h1 align="center">NAME </h1>
+                <h5 align="center">
+                    [City (or) Town,state]
+                </h5>
+                <img align="right" src="any image.jpg" height="100px">
+                
+                <br><br><br><br><br><br>
+                <hr>
+                
+                <h2> Objective:</h2>
+                Iam a btech student
+
+                <h2>Education: </h2>
+                <br>●<strong>university name and city</strong></br>
+                <br>●<strong>12th clz name and city </strong></br>
+                <br>●<strong> school city </strong></br>
+
+                <h3> Skills: </h3>
+                       ●<stong>Languages</stong>
+                                <br>●c</br>
+                                <br>●c++</br>
+                                <br>●python</br>
+                                <br>●java</br>
+                                <br>●html</br>
+ 
+                <h3> projects: </h3>
+                    <br>●<strong> clock </strong></br>
+                                  <br>●<strong> snake game</br>
+                                   <br>●<strong> resume buliding </strong></br>
+
+                <h1> contact me:</h1>
+                    <br>● Gmail : xxxxxxxxxx.com
+                    <br>● phone number : 93xxxxxxx1
+                </head>
+    </body>
+</html>
