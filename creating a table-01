@@ -1,0 +1,58 @@
+// frame1.html
+<html>
+    <head>
+        <title>
+            WEB PROGRAMMING LAB
+        </title>
+        <h1 align="center"> This is a header </h1>
+    </head>
+</html>
+
+
+//frame2.html
+<html>
+<head>
+<title>
+WEB PROGRAMMING LAB
+</title>
+<body>
+    <h2> Look in the box at the right for some information </h2>        // we can use <p></p> also instead of <h2></h2> 
+</body>
+</head>
+</html>
+
+
+//frame3.html
+<html>
+    <head>
+        <title>
+            WEB PROGRAMMING LAB
+        </title>
+        <h3> Here is the information </h3>             // we can use <p></p> also instead of <h3></h3>
+    </head>
+</html>
+
+
+//frame4.html
+<html>
+    <head>
+        <title>
+            WEB PROGRAMMING LAB
+        </title>
+        <h1 align="center"> This is a footer </h1>
+    </head>
+</html>
+
+// And the final code for creating a table-01
+<html>
+        <frameset rows = "25% , 50% ,75%">
+            <frame style="background-color: blueviolet;"src = "frame1.html"/> ------------------------>  // we can use any color here
+            <frameset cols = "30% ,70%">
+                <frame src = "frame2.html"/>
+                <frame src = "frame3.html"/>
+            </frameset>
+            <frameset rows = "25% ,50% ,75%">
+                <frame style="background-color: aqua;"src = "frame4.html"/> ------------------------>  // we can use any color here
+            </frameset>
+</html>
+ 
