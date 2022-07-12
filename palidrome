@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> palidrome </title>
+<body>
+<h1> palidrome </h1>
+<button onclick="kvsr()"> Enter </button>
+<script>
+    function kvsr(str) 
+    {
+        var str = prompt("Enter a string");
+        var n = str.length;
+        var a = str.split("");
+        var b = a.reverse();
+        var c = b.join("");
+        if (str == c)
+        {
+            document.write("Palidrome");
+        }
+        else
+        {
+            document.write("Not Palidrome");
+        }
+    }
+</script>
+</body>
+</html>
