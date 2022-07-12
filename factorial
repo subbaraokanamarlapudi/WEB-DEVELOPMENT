@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> factorial </title>
+
+<body>
+<h1> factorial </h1>
+<button onclick="kvsr()">Enter</button>
+<script>
+    function kvsr()
+    {
+        var n1 = prompt("Enter number");
+        var a = parseInt(n1);
+        var b = 1;
+        if (a !=null)
+        {
+            for (var i = 1; i <= a; i++)
+            {
+                b = b * i;
+            }
+            document.write(b);
+        }
+    }
+</script>
+</head>
+</html>
