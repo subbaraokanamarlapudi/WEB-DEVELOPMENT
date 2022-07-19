@@ -1,0 +1,152 @@
+// push,pop,shift,unshit,splice,slice,gethour(),getday(),getFullYear// 
+
+<html>
+    <head>
+        <title> web programming </title>
+        <style>
+            p{
+                font-weight: bold;
+                font-size: 30px;
+                width: fit-content;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> ARRAY METHODS : </h1>
+
+        <h2> PUSH  </h2>
+        <p id="PIET1"></p>
+        <button onclick="KVSR()">KVSR</button>
+
+        <h2> POP </h2>
+        <p id="PIET2"></p>
+        <button onclick="KVSR1()">KVSR1</button>
+
+        <h2> SHIFT </h2>
+        <p id="PIET3"></p>
+        <button onclick="KVSR2()">KVSR2</button>
+
+        <h2> UNSHIFT </h2>
+        <p id="PIET4"></p>
+        <button onclick="KVSR3()">KVSR3</button>
+
+        <h2> SPLICE </h2>
+        <p id="PIET5"></p>
+        <button onclick="KVSR4()">KVSR4</button>
+
+        <h2> SLICE </h2>
+        <p id="PIET6"></p>
+        <button onclick="KVSR5()">KVSR5</button>
+
+        <h2> get hours </h2>
+        <p id="PIET7"></p>
+        <button onclick="KVSR6()">KVSR6</button>
+
+        <h2> get day </h2>
+        <p id="PIET8"></p>
+        <button onclick="KVSR7()">KVSR7</button>
+
+        <h2> get full year </h2>
+        <p id="PIET9"></p>
+        <button onclick="KVSR8()">KVSR8</button>
+        
+        <script>
+            function KVSR()
+            {
+                var students = ["venkata" , "avinash" , "vrushodhar" , "harsha vardhan", "sridhar"];
+                students.push("sai kumar");
+                document.getElementById("PIET1").innerHTML = students;
+            }
+
+            function KVSR1()
+            {
+                var students1 = ["venkata" , "avinash" , "harsha vardhan" , "bharagav", "sridhar" , "vrushodhar"];
+                students1.pop();
+                document.getElementById("PIET2").innerHTML = students1;
+            }
+
+            function KVSR2()
+            {
+                var students2 = ["tarun" ,"venkata" , "avinash" , "harsha vardhan" , "bharagav", "sridhar" , "vrushodhar"];
+                students2.shift();
+                document.getElementById("PIET3").innerHTML = students2;
+            }
+
+            function KVSR3()
+            {
+                var students3 = ["tarun" ,"venkata" , "avinash" , "harsha vardhan" , "bharagav", "sridhar" , "vrushodhar"];
+                students3.unshift("sai kumar");
+                document.getElementById("PIET4").innerHTML = students3;
+            }
+
+            function KVSR4()
+            {
+                var students4 = ["tarun" ,"venkata" , "avinash" , "harsha vardhan" , "bharagav", "sridhar" , "vrushodhar"];
+                students4.splice(2,1,"sai");
+                document.getElementById("PIET5").innerHTML = students4;
+            }
+
+            function KVSR5()
+            {
+                var students5 = ["tarun" ,"venkata" , "avinash" , "harsha vardhan" , "bharagav", "sridhar" , "vrushodhar"];
+                students5.slice(2,4);
+                document.getElementById("PIET6").innerHTML = students5.slice(2,4);
+            }
+        </script>
+
+        <script>
+
+            function KVSR6()
+            {
+                const d = new Date();
+                document.getElementById("PIET7").innerHTML = d.getHours();
+            }
+        </script>
+
+        <script>
+
+            function KVSR7()
+            {
+                const d = new Date();
+                if (d.getDay() == 0)
+                {
+                    document.getElementById("PIET8").innerHTML = "Sunday";
+                }
+                else if (d.getDay() == 1)
+                {
+                    document.getElementById("PIET8").innerHTML = "Monday";
+                }
+                else if (d.getDay() == 2)
+                {
+                    document.getElementById("PIET8").innerHTML = "Tuesday";
+                }
+                else if (d.getDay() == 3)
+                {
+                    document.getElementById("PIET8").innerHTML = "Wednesday";
+                }
+                else if (d.getDay() == 4)
+                {
+                    document.getElementById("PIET8").innerHTML = "Thursday";
+                }
+                else if (d.getDay() == 5)
+                {
+                    document.getElementById("PIET8").innerHTML = "Friday";
+                }
+                else if (d.getDay() == 6)
+                {
+                    document.getElementById("PIET8").innerHTML = "Saturday";
+                }
+            }
+        </script>
+
+        <script>
+            function KVSR8()
+            {
+                const d = new Date();
+                document.getElementById("PIET9").innerHTML = d.getFullYear();
+            }
+        </script>
+        
+</body>
+</html>
